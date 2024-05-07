@@ -1,0 +1,95 @@
+/* Styles from the first program and main page*/
+body {
+    background: linear-gradient(to bottom, #0d47a1 50%, #1565c0 100%); /* sets gradient from top to bottom dark blue to lighter blue respectively */
+    color: #0000FF; /* bright light blue */
+}
+.profile-pic {
+    max-width: 300px;
+}
+.btn {
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.gallery-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.back-to-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #007bff; /* bright light blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Styles from the second program */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(144, 202, 249, 0.9); /* Lighter blue background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* black */
+}
+h1 {
+    color: #000; /* black */
+}
+.contact-info {
+    text-align: left;
+    margin-top: 20px;
+}
+.contact-info p {
+    margin-bottom: 10px;
+    color: #000; /* black */
+}
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+ul li {
+    margin-bottom: 5px;
+}
+.social-media {
+    color: #4caf50; /* Dark green */
+}
+
+/* Styles from the third program */
+.nickname {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #07064C; /* Dark blue */
+    font-weight: bold;
+}
+.definition {
+    font-size: 18px;
+    color: #00000; /* Lighter blue */
+    font-weight: normal;
+}
+
+/* Styles from the fourth program */
+h2 {
+    color: #333;
+}
+.running-info {
+    text-align: left;
+    margin-top: 20px;
+}
+.running-info p {
+    margin-bottom: 5px;
+    color: #000;
+}
+.running-info ul {
+    list-style: none;
+    padding: 0;
+}
+.running-info ul li {
+    margin-bottom: 5px;
+    display: inline-block;
+    width: calc(100% / 3);
+}

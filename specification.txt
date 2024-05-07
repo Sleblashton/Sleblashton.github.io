@@ -1,0 +1,27 @@
+tags:
+br
+h1
+h2
+h3
+ul
+li
+a
+img
+p
+span
+
+css properties:
+
+font-size
+margin-bottom
+color
+font-weight
+padding
+
+Bootstrap:
+
+I used the container for my different pages as it was easy to implement
+
+JS:
+
+I implemented a way to email a fake email address that I made in the contact section. I used https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail to see how to actually send the email but used javascript to get the message and for the submit button
